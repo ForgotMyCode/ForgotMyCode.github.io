@@ -4,7 +4,7 @@
 
 - [
 {% for category in post.categories %}
-\[category\]
+\[{{ category }}\]
 {% endfor %}
  {{ post.title }}]({{ site.baseurl }}{{ post.url }})
 
