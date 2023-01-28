@@ -1,6 +1,6 @@
 {% include core.md %}
 
-# Hello world
+## Posts:
 
 {% for post in site.posts %}
 
