@@ -8,7 +8,16 @@ body, html {
 }
 
 body {
-  background-image: linear-gradient(135deg, rgba(0, 0, 0, 1) 0%, rgba(37, 29, 144, 1) 100%);
+  background-image: linear-gradient(
+    90deg,
+    hsl(240deg 100% 2%) 0%,
+    hsl(256deg 87% 12%) 9%,
+    hsl(240deg 100% 20%) 20%,
+    hsl(240deg 100% 20%) 68%,
+    hsl(240deg 100% 20%) 86%,
+    hsl(227deg 89% 23%) 94%,
+    hsl(214deg 100% 23%) 100%
+  );
   color: #d1e6d1;
   line-height: 1.5;
   letter-spacing: 0px;
