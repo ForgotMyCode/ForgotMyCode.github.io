@@ -24,8 +24,8 @@ body {
   text-transform: none;
 }
 
-tbody {
-  background: rgba(0, 0, 0, 1);
+tbody, th, tr, td {
+  background: rgba(0, 0, 0, 0.5);
 }
 
 a {
