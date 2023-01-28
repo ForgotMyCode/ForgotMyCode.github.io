@@ -24,5 +24,7 @@ exclude:
   - README.md
   - CNAME
 
+theme: minima
+
 github:
   is_project_page: false
