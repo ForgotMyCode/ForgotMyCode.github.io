@@ -24,8 +24,8 @@ body {
   text-transform: none;
 }
 
-td {
-  background: rgb(0, 0, 0);
+table, tr, th, td {
+  background: rgba(0, 0, 0, 0);
 }
 
 a {
