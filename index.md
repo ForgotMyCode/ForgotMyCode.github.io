@@ -2,6 +2,10 @@
 
 {% for post in site.posts %}
 
-- [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+- [
+{% for category in post.categories %}
+\[category\]
+{% endfor %}
+ {{ post.title }}]({{ site.baseurl }}{{ post.url }})
 
 {% endfor %}
