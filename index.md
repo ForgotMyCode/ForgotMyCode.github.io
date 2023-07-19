@@ -1,5 +1,7 @@
 {% include core.md %}
 
+## This only serves as my playground with github pages.
+
 ## Posts:
 
 {% for post in site.posts %}
